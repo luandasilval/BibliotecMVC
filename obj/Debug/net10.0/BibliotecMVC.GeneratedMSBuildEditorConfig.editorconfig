@@ -35,6 +35,14 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/56597427858/Desktop/BibliotecMVC/Views/Livro/ListagemAdmistrador.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGl2cm9cTGlzdGFnZW1BZG1pc3RyYWRvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/56597427858/Desktop/BibliotecMVC/Views/Login/AcessoNegado.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cQWNlc3NvTmVnYWRvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/56597427858/Desktop/BibliotecMVC/Views/Login/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -45,6 +53,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/56597427858/Desktop/BibliotecMVC/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/56597427858/Desktop/BibliotecMVC/Views/Shared/_MenuLateral.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9NZW51TGF0ZXJhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/56597427858/Desktop/BibliotecMVC/Views/_ViewImports.cshtml]
