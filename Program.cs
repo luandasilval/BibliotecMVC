@@ -35,28 +35,28 @@ builder.Services.AddScoped<IPasswordHasher<Usuario>, PasswordHasher<Usuario>>();
 var app = builder.Build();
 
 // //!Código temporário para atualizar as senhas de teste.
-// using (var scope = app.Services.CreateScope())
-// {
-//     // Obtém o contexto do banco de dados.
-//     var contexto = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+using (var scope = app.Services.CreateScope())
+{
+    // Obtém o contexto do banco de dados.
+    var contexto = scope.ServiceProvider.GetRequiredService<AppDbContext>();
 
-//     // Obtém o serviço responsável pela geração do hash.
-//     var passwordHasher = scope.ServiceProvider.GetRequiredService<IPasswordHasher<Usuario>>();
+    // Obtém o serviço responsável pela geração do hash.
+    var passwordHasher = scope.ServiceProvider.GetRequiredService<IPasswordHasher<Usuario>>();
 
-//     // Busca os usuários que ainda possuem a senha de teste em texto puro.
-//     var usuarios = contexto.Usuario
-//         .Where(u => u.Senha == "123456")
-//         .ToList();
+    // Busca os usuários que ainda possuem a senha de teste em texto puro.
+    var usuarios = contexto.Usuario
+        .Where(u => u.Senha == "admin456")
+        .ToList();
 
-//     foreach (var usuario in usuarios)
-//     {
-//         // Gera o hash da senha do usuário.
-//         usuario.Senha = passwordHasher.HashPassword(usuario, usuario.Senha);
-//     }
+    foreach (var usuario in usuarios)
+    {
+        // Gera o hash da senha do usuário.
+        usuario.Senha = passwordHasher.HashPassword(usuario, usuario.Senha);
+    }
 
-//     // Salva as alterações no banco de dados.
-//     contexto.SaveChanges();
-// }
+    // Salva as alterações no banco de dados.
+    contexto.SaveChanges();
+}
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())

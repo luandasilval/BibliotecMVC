@@ -224,7 +224,6 @@ C:\Users\56597427858\Desktop\BibliotecMVC\obj\Debug\net10.0\compressed\tdzt1ic5p
 C:\Users\56597427858\Desktop\BibliotecMVC\obj\Debug\net10.0\compressed\eu1i6itkgf-{0}-yo9670r92y-yo9670r92y.gz
 C:\Users\56597427858\Desktop\BibliotecMVC\obj\Debug\net10.0\compressed\xscfrdpq6o-{0}-uxje27x630-uxje27x630.gz
 C:\Users\56597427858\Desktop\BibliotecMVC\obj\Debug\net10.0\compressed\ay1yv3gzin-{0}-srrls8eled-srrls8eled.gz
-C:\Users\56597427858\Desktop\BibliotecMVC\obj\Debug\net10.0\compressed\y6gc49xexz-{0}-sjy9k82gkd-sjy9k82gkd.gz
 C:\Users\56597427858\Desktop\BibliotecMVC\obj\Debug\net10.0\compressed\n6t76vryl0-{0}-5ipweew5fc-5ipweew5fc.gz
 C:\Users\56597427858\Desktop\BibliotecMVC\obj\Debug\net10.0\staticwebassets.build.json
 C:\Users\56597427858\Desktop\BibliotecMVC\obj\Debug\net10.0\staticwebassets.build.json.cache
@@ -237,3 +236,4 @@ C:\Users\56597427858\Desktop\BibliotecMVC\obj\Debug\net10.0\refint\BibliotecMVC.
 C:\Users\56597427858\Desktop\BibliotecMVC\obj\Debug\net10.0\BibliotecMVC.pdb
 C:\Users\56597427858\Desktop\BibliotecMVC\obj\Debug\net10.0\BibliotecMVC.genruntimeconfig.cache
 C:\Users\56597427858\Desktop\BibliotecMVC\obj\Debug\net10.0\ref\BibliotecMVC.dll
+C:\Users\56597427858\Desktop\BibliotecMVC\obj\Debug\net10.0\compressed\y6gc49xexz-{0}-yivtxxej5r-yivtxxej5r.gz

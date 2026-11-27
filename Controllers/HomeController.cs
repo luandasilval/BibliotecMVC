@@ -1,11 +1,13 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using BibliotecMVC.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace BibliotecMVC.Controllers;
 
 public class HomeController : Controller
 {
+    [Authorize] // somente pessoas autenticadas/autorizadas podem acessar esse método
     public IActionResult Index()
     {
         return View();
